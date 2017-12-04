@@ -1,0 +1,36 @@
+{
+  "name": "mhaifa_bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for Maccabi Haifa football club",
+  "main": "bot.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node bot.js",
+    "dev": "cross-env NODE_ENV=development nodemon bot.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yotamgever/mhaifa_bot.git"
+  },
+  "keywords": [
+    "mhfc",
+    "mhaifa",
+    "maccabi",
+    "haifa",
+    "green",
+    "ga02",
+    "yarok"
+  ],
+  "author": "Yotam Roth <yotam.rt@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yotamgever/mhaifa_bot/issues"
+  },
+  "homepage": "https://github.com/yotamgever/mhaifa_bot#readme",
+  "dependencies": {
+    "config": "^1.28.1",
+    "cross-env": "^5.1.1",
+    "node-telegram-bot-api": "^0.29.0",
+    "request": "^2.83.0"
+  }
+}

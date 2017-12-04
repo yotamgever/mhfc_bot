@@ -1,0 +1,1 @@
+team - gets the major team statistics
